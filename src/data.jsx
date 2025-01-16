@@ -36,9 +36,8 @@ export const products = [
     id: nanoid(),
     img: 'https://www.thebardscoffee.com/wp-content/uploads/2019/11/aseazd-2.png',
     url: 'https://1800807234.myasealive.com/',
-
     title: 'ASEA',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.',
   },
   // {
   //   id: nanoid(),
@@ -81,14 +80,14 @@ export const videos = [
   },
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=QndF3n0STFI',
-    title: 'The science behind Cell Performance | ASEA',
+    url: 'https://1800807234.myasealive.com',
+    title: 'Learn More About ASEA',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
     url: 'https://www.youtube.com/watch?v=0gDrFrPGEbY&t=365s',
-    title: 'The Ultimate Guide to ASEA Redox: Answering Your Commone Questions',
+    title: 'The Ultimate Guide to ASEA Redox: Answering Your Common Questions',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ]
