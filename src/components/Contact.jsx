@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div id="contact" className="antialiased bg-gray-100 pt-10">
       <div className="flex w-full min-h-screen justify-center items-center">
-        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 w-full max-w-6xl p-8 rounded-xl shadow-lg bg-cyan-700 text-white">
+        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 w-full max-w-6xl p-8 md:rounded-xl shadow-lg bg-cyan-700 text-white">
           {/* Left Column: Contact Information */}
           <div className="flex flex-col space-y-8 md:w-1/2">
             <h1 className="font-bold text-5xl tracking-wide text-center">
