@@ -2,7 +2,7 @@ import aboutImg from '../assets/ruthpic.jpg'
 
 const About = () => {
   return (
-    <section className=" pt-40 pb-20" id="about">
+    <section className=" pt-40 pb-5" id="about">
       <div className="align-element grid md:grid-cols-2 items-center gap-2 lg:gap-4 xl:gap-6">
         <div className="relative">
           <div className="border-8 border-cyan-500 absolute -top-6 -left-6 w-80 h-full"></div>
