@@ -14,7 +14,7 @@ const About = () => {
           </article>
         </div>
         <article>
-          <h1 className=" text-7xl font-bold tracking-wider font-bold text-cyan-600">
+          <h1 className=" text-7xl font-bold tracking-wider text-cyan-600">
             Ruth <span className="text-cyan-800"> Cloud</span>{' '}
           </h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
