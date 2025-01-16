@@ -15,7 +15,7 @@ const ProductCard = ({ url, img, title, text }) => {
         
 <div className="mt-4 flex gap-x-4">
     <a href={url}>
-        <TbWorldWww className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
+        <TbWorldWww className='h-14 w-14 text-cyan-700 hover:text-cyan-400 duration-300'/>
     </a>
 </div>
       </div>
