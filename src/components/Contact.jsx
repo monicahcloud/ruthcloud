@@ -1,20 +1,24 @@
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
+// import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div id="contact" className="antialiased bg-gray-100">
+    <div id="contact" className="antialiased bg-gray-100 pt-10">
       <div className="flex w-full min-h-screen justify-center items-center">
         <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 w-full max-w-6xl p-8 rounded-xl shadow-lg bg-cyan-700 text-white">
           {/* Left Column: Contact Information */}
           <div className="flex flex-col space-y-8 md:w-1/2">
-            <h1 className="font-bold text-3xl tracking-wide">Contact Us</h1>
-            <p className="pt-2 text-cyan-100 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus accusantium fugiat temporibus natus quaerat in ex,
-              earum aspernatur quas ipsum illo reprehenderit enim vero
-              repudiandae animi ducimus nostrum fuga pariatur.
+            <h1 className="font-bold text-5xl tracking-wide text-center">
+              Get in touch with Ruth
+            </h1>
+            <p className="pt-2 text-cyan-100 text-md">
+              Are you ready to take control of your health and well-being? Ruth
+              is here to help! 
+              Whether you are looking for personalized advice, tips on improving
+              your wellness, or simply want to learn more about how to achieve
+              your health goals, Ruth is just a message away. Reach out today
+              and take the first step toward a healthier, happier you!
             </p>
             <div className="flex flex-col space-y-6">
               <div className="inline-flex space-x-2 items-center">
@@ -25,10 +29,10 @@ const Contact = () => {
                 <MdEmail className="text-teal-300 text-xl" />
                 <span>ruthncloud@gmail.com</span>
               </div>
-              <div className="inline-flex space-x-2 items-center">
+              {/* <div className="inline-flex space-x-2 items-center">
                 <FaLocationDot className="text-teal-300 text-xl" />
                 <span>Atlanta, GA USA</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -76,7 +80,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Contact;

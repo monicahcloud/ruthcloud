@@ -5,9 +5,10 @@ import { GiHealthPotion } from 'react-icons/gi'
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
-  { id: nanoid(), href: '#services', text: 'services' },
+  { id: nanoid(), href: '#services', text: 'products' },
+  { id: nanoid(), href: '#videos', text: ' videos' },
   { id: nanoid(), href: '#contact', text: 'contact' },
-];
+]
 
 export const services = [
   {

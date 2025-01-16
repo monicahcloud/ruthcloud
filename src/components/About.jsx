@@ -2,8 +2,8 @@ import aboutImg from '../assets/ruthpic.jpg'
 
 const About = () => {
   return (
-    <section className="py-20" id="about">
-      <div className="align-element grid md:grid-cols-2 items-center gap-2">
+    <section className=" pt-40 pb-20" id="about">
+      <div className="align-element grid md:grid-cols-2 items-center gap-2 lg:gap-4 xl:gap-6">
         <div className="relative">
           <div className="border-8 border-cyan-500 absolute -top-6 -left-6 w-80 h-full"></div>
           <article className="hidden md:block">
@@ -20,10 +20,12 @@ const About = () => {
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
             Health and Wellness Coach
           </p>
-          <p className="mt-4 text-1xl text-slate-700 capitalize tracking-wide">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolores enim earum saepe quam soluta fugiat iste doloremque pariatur, quas a quae inventore perspiciatis incidunt deleniti. Optio pariatur possimus facere?
+          <p className="mt-4 text-1xl text-slate-700  tracking-wide">
+            With over 40 years of experience in nursing, Ruth has spent her
+            career providing compassionate care, nurturing wellness, and helping
+            countless individuals navigate their health journeys. Now retired,
+            she is passionate to continue helping others take control of their well-being and live healthier lives.
           </p>
-
         </article>
       </div>
     </section>
