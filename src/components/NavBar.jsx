@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     <nav className="sticky top-0 z-[20] bg-white flex justify-between items-center px-5 py-4">
-      <div className="flex items-center justify-between w-full">
+      <div className="flex items-center ml-10 justify-between w-full">
         {/* Logo */}
         <div className="flex-shrink-0">
           <h1 className=" text-2xl font-bold tracking-wider text-cyan-600">
