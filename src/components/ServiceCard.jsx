@@ -44,7 +44,7 @@ const ServiceCard = () => {
       {videos.length > 3 && (
         <button
           onClick={toggleShowAll}
-          className="mt-6 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
+          className="mt-6 bg-cyan-600 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
         >
           {showAll ? 'See Less' : 'See More'}
         </button>
