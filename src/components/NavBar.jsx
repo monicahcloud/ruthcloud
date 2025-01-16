@@ -13,7 +13,9 @@ const NavBar = () => {
       <div className="flex items-center justify-between w-full">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <img src="/path/to/logo.png" alt="Logo" className="h-8" />
+          <h1 className=" text-2xl font-bold tracking-wider text-cyan-600">
+            Ruth<span className="text-cyan-800">Cloud</span>{' '}
+          </h1>
         </div>
 
         {/* Links Container (centered on larger screens) */}
