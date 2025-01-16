@@ -37,7 +37,7 @@ const ServiceCard = () => {
               />
             </a>
             <h2 className="text-lg font-semibold mb-2">{video.title}</h2>
-            <p className="text-gray-700">{video.text}</p>
+            {/* <p className="text-gray-700">{video.text}</p> */}
           </div>
         ))}
       </div>

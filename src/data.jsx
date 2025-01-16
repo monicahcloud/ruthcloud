@@ -33,20 +33,20 @@ export const services = [
 export const products = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/19641807/pexels-photo-19641807/free-photo-of-massage-therapist-pouring-oil-on-a-womans-back.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    img: 'https://www.thebardscoffee.com/wp-content/uploads/2019/11/aseazd-2.png',
     url: 'https://1800807234.myasealive.com/',
-    
+
     title: 'ASEA',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/11655091/pexels-photo-11655091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    url: 'https://google.com/',
+  // {
+  //   id: nanoid(),
+  //   img: 'https://images.pexels.com/photos/11655091/pexels-photo-11655091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  //   url: 'https://google.com/',
 
-    title: 'CPR/First Aid Training',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
+  //   title: 'CPR/First Aid Training',
+  //   text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  // },
   // {
   //   id: nanoid(),
   //   img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -60,14 +60,22 @@ export const products = [
 export const videos = [
   {
     id: nanoid(),
+    url: 'https://www.youtube.com/watch?v=tdbbrK25pQc&t=121s',
+    title: 'ASEA: Genesis / Founders Video',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+
+  {
+    id: nanoid(),
     url: 'https://www.youtube.com/watch?v=8TLen6kPNJg&t=500s',
     title: ' The ASEA REDOX Breakthrough',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
+
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=tdbbrK25pQc&t=121s',
-    title: 'ASEA: Genesis / Founders Video',
+    url: 'https://www.youtube.com/watch?v=QndF3n0STFI',
+    title: 'The science behind Cell Performance | ASEA',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
@@ -78,8 +86,8 @@ export const videos = [
   },
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=rHewUQxYsNA&t=75s',
-    title: 'ASEA VIA - Pathways to Wellness',
+    url: 'https://www.youtube.com/watch?v=0gDrFrPGEbY&t=365s',
+    title: 'The Ultimate Guide to ASEA Redox: Answering Your Commone Questions',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ]
