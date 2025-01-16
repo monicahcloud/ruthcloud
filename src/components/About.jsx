@@ -6,7 +6,7 @@ const About = () => {
       <div className="align-element grid md:grid-cols-2 items-center gap-2 lg:gap-4 xl:gap-6">
         <div className="relative">
           <div className="border-8 border-cyan-500 absolute -top-6 -left-6 w-80 h-full"></div>
-          <article className="hidden md:block">
+          <article className=" md:block">
             <img
               src={aboutImg}
               className="relative z-10 shadow-lg h-80 lg:h-90"
