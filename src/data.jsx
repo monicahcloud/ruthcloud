@@ -34,7 +34,7 @@ export const services = [
 export const products = [
   {
     id: nanoid(),
-    img: 'https://www.thebardscoffee.com/wp-content/uploads/2019/11/aseazd-2.png',
+    img: 'https://www.aseaglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fessential-bundles-slide-1.216079fe.jpg&w=750&q=75',
     url: 'https://1800807234.myasealive.com/',
     title: 'ASEA',
     text: 'ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.',
@@ -80,7 +80,7 @@ export const videos = [
   },
   {
     id: nanoid(),
-    url: 'https://1800807234.myasealive.com',
+    url: 'https://www.youtube.com/watch?v=TnxDE4zqR-k',
     title: 'Learn More About ASEA',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
