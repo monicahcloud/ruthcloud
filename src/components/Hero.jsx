@@ -7,7 +7,7 @@ const Hero = () => {
           <h1 className="text-white text-7xl max-w-2xl uppercase font-bold ">
             Health and Wellness
           </h1>
-          <p className="mt-2 text-lg text-slate-100 capitalize tracking-wide">
+          <p className="mt-2 text-3xl text-slate-100 capitalize tracking-wide">
             We rise, we heal, we thrive - together, for everyone's benefit!
           </p>
         </div>
