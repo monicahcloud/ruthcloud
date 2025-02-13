@@ -4,8 +4,9 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import About from './components/About'
 import Contact from './components/Contact'
-import Products from './components/Products'
+// import Products from './components/Products'
 import NavBar from './components/NavBar'
+import FeaturedProducts from './components/FeaturedProducts'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <NavBar />
       <Hero />
       <About />
-      <Products/>
+      <FeaturedProducts/>
+      {/* <Products/> */}
       <Services/>
       <Contact />
       <Footer />

@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
-import Ebundle from "../assets/ebundle.png";
-import Renu28 from "../assets/renu28.jpeg";
-import REDOXGoldCom from "../assets/bundle.png";
+import Ebundle from "../assets/essentialbundle.png";
+import Renu28 from "../assets/renu28.png";
+import REDOXGoldCom from "../assets/goldbundle.png";
 
 
 const featuredproducts = [
@@ -11,7 +11,7 @@ const featuredproducts = [
     url: "https://shop.aseaglobal.com/products/5763?sponsorId=180SHS7BCD&m=7&st=ps",
     title: "REDOXGold™",
     className: "rounded-md mb-4 size-48",
-    text: "REDOXGold™ absorbs quickly for fast-acting comfort and soothing relief with lasting results. Push your body to the limits and take back control to keep doing what you love, powered by next-generation redox technology.",
+    text: "REDOXGold™ absorbs quickly for fast-acting comfort and soothing relief with lasting results.",
   },
   {
     id: nanoid(),
@@ -27,7 +27,7 @@ const featuredproducts = [
     url: "https://shop.aseaglobal.com/products/3146?sponsorId=180SHS7BCD&m=7&st=ps",
     title: "RENU28",
     className: "rounded-md mb-4 h-52 ",
-    text: "Our skin-priming, age-fighting, cellular-rejuvenating gel powers both your skin and body to look their best so you can feel your best. Containing ASEA’s innovative redox cell signaling technology, RENU28® promotes hydration, elasticity, soothing, and skin surface cellular renewal. One simple gel, so many benefits.",
+    text: "RENU28® promotes hydration, elasticity, soothing, and skin surface cellular renewal. One simple gel, so many benefits.",
   },
 ];
 
@@ -43,7 +43,7 @@ const FeaturedProductCard = () => {
             <img
               src={product.img}
               alt={product.title}
-              className={product.className}
+              className='w-full h-[300px]'
             />
             <h2 className="text-lg font-semibold mb-2">{product.title}</h2>
             <p className="text-gray-700">{product.text}</p>
