@@ -1,11 +1,29 @@
 import { nanoid } from 'nanoid';
-import { MdHealthAndSafety } from 'react-icons/md'
 import { GiHealthPotion } from 'react-icons/gi'
+import gold from "../public/gold.png"
+import fourbottls from "../public/fourbottls.jpeg";
+import biome from "../public/biome.jpeg";
+import cleanser from "../public/cleanser.jpeg";
+import cream from "../public/cream.jpeg";
+import eightbottls from "../public/eightbottls.jpeg";
+import lifemax from "../public/lifemax.jpeg";
+import mask from "../public/mask.jpeg";
+import mood from "../public/mood.jpeg";
+import omega from "../public/omega.jpeg";
+import sixteenpack from "../public/sixteenpack.jpeg";
+import twobottls from "../public/twobottls.jpeg";
+import intenseserum from '../public/intenseserum.png'
+import skincare from '../public/skincare.jpeg'
+import toner from '../public/toner.jpeg'
+import serum from '../public/serum.jpeg'
+import variety from '../public/varietypack.jpeg'
+import mind from '../public/mind.jpeg'
+import radiance from '../public/radiance.jpeg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
-  { id: nanoid(), href: '#services', text: 'products' },
+  { id: nanoid(), href: '#products', text: 'products' },
   { id: nanoid(), href: '#videos', text: ' videos' },
   { id: nanoid(), href: '#contact', text: 'contact' },
 ]
@@ -23,28 +41,180 @@ export const services = [
 export const products = [
   {
     id: nanoid(),
-    img: 'https://www.aseaglobal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fessential-bundles-slide-1.216079fe.jpg&w=750&q=75',
-    url: 'https://1800807234.myasealive.com/',
-    title: 'ASEA',
-    text: 'ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.',
+    img: gold,
+    url: "https://1800807234.myasealive.com/",
+    title: "REDOXGold™ Massage + Soothing Gel",
+    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+    retail: "$70.00",
+    subscription: "$55.00",
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/11655091/pexels-photo-11655091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    url: 'https://google.com/',
+    img: fourbottls,
+    url: "https://shop.aseaglobal.com/products/3155?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "4 Bottles of ASEA Redox Supplement",
+    text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
+    retail: "$172.50",
+    subscription: "$140.00",
+  },
+  {
+    id: nanoid(),
+    img: sixteenpack,
+    url: "https://shop.aseaglobal.com/products/2393?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "16 Pounches of ASEA Redox Supplement",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$178.00",
+    subscription: "$145.00",
+  },
+  {
+    id: nanoid(),
+    img: twobottls,
+    url: "https://shop.aseaglobal.com/products/2365?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "2 Bottles of ASEA Redox Supplement",
+    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+    retail: "$95.00",
+    subscription: "$75.00",
+  },
+  {
+    id: nanoid(),
+    img: eightbottls,
+    url: "https://shop.aseaglobal.com/products/2365?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "8 pouches of ASEA Redox Supplement",
+    text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
+    retail: "$100.00",
+    subscription: "$78.00",
+  },
+  {
+    id: nanoid(),
+    img: mask,
+    url: "https://shop.aseaglobal.com/products/4850?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "Redox Clay Mask",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$50.00",
+    subscription: "$40.00",
+  },
+  {
+    id: nanoid(),
+    img: intenseserum,
+    url: "https://shop.aseaglobal.com/products/2423?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "Intensive Redox Serum",
+    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+    retail: "$80.00",
+    subscription: "$100.00",
+  },
+  {
+    id: nanoid(),
+    img: skincare,
+    url: "https://shop.aseaglobal.com/products/4312?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "RENUAdvanced® Skin Care System",
+    text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
+    retail: "$181.25",
+    subscription: "$145.00",
+  },
+  {
+    id: nanoid(),
+    img: cream,
+    url: "https://shop.aseaglobal.com/products/4311?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "RENUAdvanced® Hydrating Cream",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$75.00",
+    subscription: "$60.00",
+  },
+  {
+    id: nanoid(),
+    img: toner,
+    url: "https://shop.aseaglobal.com/products/4305?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "RENUAdvanced® Balancing Toner",
+    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+    retail: "$37.50",
+    subscription: "$30.00",
+  },
+  {
+    id: nanoid(),
+    img: cleanser,
+    url: "https://shop.aseaglobal.com/products/4302?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "RENUAdvanced® Foaming Cleanser",
+    text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
+    retail: "$25.00",
+    subscription: "$31.25",
+  },
+  {
+    id: nanoid(),
+    img: serum,
+    url: "https://shop.aseaglobal.com/products/4308?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "RENUAdvanced® Glow Serum",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$87.50",
+    subscription: "$70.00",
+  },
+  {
+    id: nanoid(),
+    img: energy,
+    url: "https://1800807234.myasealive.com/",
+    title: "REDOXGold™ Massage + Soothing Gel",
+    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+    retail: "$70.00",
+    subscription: "$55.00",
+  },
+  {
+    id: nanoid(),
+    img: mood,
+    url: "https://shop.aseaglobal.com/products/3155?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "4 Bottles of ASEA Redox Supplement",
+    text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
+    retail: "$172.50",
+    subscription: "$140.00",
+  },
+  {
+    id: nanoid(),
+    img: mind,
+    url: "https://react-projects.netlify.app/",
+    title: "third project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$",
+    subscription: "$",
+  },
+  {
+    id: nanoid(),
+    img: radiance,
+    url: "https://1800807234.myasealive.com/",
+    title: "REDOXGold™ Massage + Soothing Gel",
+    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+    retail: "$70.00",
+    subscription: "$55.00",
+  },
+  {
+    id: nanoid(),
+    img: variety,
+    url: "https://shop.aseaglobal.com/products/3155?sponsorId=180SHS7BCD&m=7&st=ps",
+    title: "4 Bottles of ASEA Redox Supplement",
+    text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
+    retail: "$172.50",
+    subscription: "$140.00",
+  },
+  {
+    id: nanoid(),
+    img: gold,
+    url: "https://react-projects.netlify.app/",
+    github: "https://github.com/john-smilga",
+    title: "third project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$",
+    subscription: "$",
+  },
+];
 
-    title: 'CPR/First Aid Training',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-]
+
+
+
+
+
+
+
+
+
+
+
 
 export const videos = [
   {

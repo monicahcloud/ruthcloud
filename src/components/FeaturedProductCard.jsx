@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import Ebundle from "../assets/essentialbundle.png";
 import Renu28 from "../assets/renu28.png";
-import REDOXGoldCom from "../assets/goldbundle.png";
+import REDOXGoldCom from "../assets/REDOXGold.jpg";
 
 
 const featuredproducts = [
@@ -12,6 +12,8 @@ const featuredproducts = [
     title: "REDOXGold™",
     className: "rounded-md mb-4 size-48",
     text: "REDOXGold™ absorbs quickly for fast-acting comfort and soothing relief with lasting results.",
+    retail: "$198.00",
+    subscription: "NA",
   },
   {
     id: nanoid(),
@@ -20,6 +22,8 @@ const featuredproducts = [
     title: "Essential Bundle",
     text: "6 bottles of ASEA Redox Cell Signaling Supplement, 1 tube of RENU28 Revitalizing Redox Gel, Shipping included",
     className: "rounded-md mb-4 size-48",
+    retail: "$NA",
+    subscription: "$215.00",
   },
   {
     id: nanoid(),
@@ -28,6 +32,8 @@ const featuredproducts = [
     title: "RENU28",
     className: "rounded-md mb-4 h-52 ",
     text: "RENU28® promotes hydration, elasticity, soothing, and skin surface cellular renewal. One simple gel, so many benefits.",
+    retail: "$54.00",
+    subscription: "$43.00",
   },
 ];
 
@@ -46,6 +52,10 @@ const FeaturedProductCard = () => {
               className='w-full h-[300px]'
             />
             <h2 className="text-lg font-semibold mb-2">{product.title}</h2>
+           < p className="text-gray-700 font-bold ">
+                Retail: {product.retail}
+              </p>
+              <p className="text-gray-700 font-bold">Subscription: {product.subscription}</p>
             <p className="text-gray-700">{product.text}</p>
             {/* <a href={product.url} target="_blank" rel="noopener noreferrer">
               <TbWorldWww className="h-10 w-14 text-cyan-600 hover:text-cyan-400 duration-300" />
