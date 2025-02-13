@@ -7,7 +7,7 @@ import cleanser from "../public/cleanser.jpeg";
 import cream from "../public/cream.jpeg";
 import eightbottls from "../public/eightbottls.jpeg";
 import lifemax from "../public/lifemax.jpeg";
-import mask from "../public/mask.jpeg";
+import mask from "../public/mask.png";
 import mood from "../public/mood.jpeg";
 import omega from "../public/omega.jpeg";
 import sixteenpack from "../public/sixteenpack.jpeg";
@@ -63,7 +63,7 @@ export const products = [
     id: nanoid(),
     img: sixteenpack,
     url: "https://shop.aseaglobal.com/products/2393?sponsorId=180SHS7BCD&m=7&st=ps",
-    title: "16 Pounches of ASEA Redox Supplement",
+    title: "16 Pouches of ASEA Redox Supplement",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
     retail: "$178.00",
     subscription: "$145.00",
@@ -81,7 +81,7 @@ export const products = [
     id: nanoid(),
     img: eightbottls,
     url: "https://shop.aseaglobal.com/products/2365?sponsorId=180SHS7BCD&m=7&st=ps",
-    title: "8 pouches of ASEA Redox Supplement",
+    title: "8 Pouches of ASEA Redox Supplement",
     text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
     retail: "$100.00",
     subscription: "$78.00",
