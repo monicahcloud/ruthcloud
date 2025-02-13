@@ -19,6 +19,8 @@ import serum from '../public/serum.jpeg'
 import variety from '../public/varietypack.jpeg'
 import mind from '../public/mind.jpeg'
 import radiance from '../public/radiance.jpeg'
+import energy from '../public/energy.jpeg'
+import source from '../public/source.jpeg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -194,7 +196,37 @@ export const products = [
   },
   {
     id: nanoid(),
-    img: gold,
+    img: biome,
+    url: "https://react-projects.netlify.app/",
+    github: "https://github.com/john-smilga",
+    title: "third project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$",
+    subscription: "$",
+  },
+  {
+    id: nanoid(),
+    img: lifemax,
+    url: "https://react-projects.netlify.app/",
+    github: "https://github.com/john-smilga",
+    title: "third project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$",
+    subscription: "$",
+  },
+  {
+    id: nanoid(),
+    img: source,
+    url: "https://react-projects.netlify.app/",
+    github: "https://github.com/john-smilga",
+    title: "third project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    retail: "$",
+    subscription: "$",
+  },
+  {
+    id: nanoid(),
+    img: omega,
     url: "https://react-projects.netlify.app/",
     github: "https://github.com/john-smilga",
     title: "third project",
