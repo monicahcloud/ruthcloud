@@ -101,8 +101,8 @@ export const products = [
     url: "https://shop.aseaglobal.com/products/2423?sponsorId=180SHS7BCD&m=7&st=ps",
     title: "Intensive Redox Serum",
     text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
-    retail: "$80.00",
-    subscription: "$100.00",
+    retail: "$100.00",
+    subscription: "$80.00",
   },
   {
     id: nanoid(),
@@ -137,8 +137,8 @@ export const products = [
     url: "https://shop.aseaglobal.com/products/4302?sponsorId=180SHS7BCD&m=7&st=ps",
     title: "RENUAdvanced® Foaming Cleanser",
     text: "Help your body’s natural process for cell communication, protection, and balance with active redox signaling molecules.",
-    retail: "$25.00",
-    subscription: "$31.25",
+    retail: "$31.25",
+    subscription: "$25.00",
   },
   {
     id: nanoid(),

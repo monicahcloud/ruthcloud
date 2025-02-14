@@ -22,7 +22,7 @@ const featuredproducts = [
     title: "Essential Bundle",
     text: "6 bottles of ASEA Redox Cell Signaling Supplement, 1 tube of RENU28 Revitalizing Redox Gel, Shipping included",
     className: "rounded-md mb-4 size-48",
-    retail: "$NA",
+    retail: "NA",
     subscription: "$215.00",
   },
   {
