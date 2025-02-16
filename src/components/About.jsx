@@ -57,16 +57,29 @@ const About = () => {
               and enhancing lives.
             </p>
 
-            <div className="mt-4 flex gap-x-4">
+            <div className="mt-4 flex gap-x-20 justify-between">
               {/* <a href={url} target="_blank">
                       <TbWorldWww className="h-14 w-14 text-cyan-600 hover:text-cyan-400 duration-300" />
                     </a>{' '} */}
-              <a href="https://1800807234.myasealive.com/" target="_blank">
+              <a
+                href="https://shop.aseaglobal.com/products?sponsorId=180SHS7BCD&at=true&m=7/"
+                target="_blank"
+              >
                 <span>
                   {" "}
                   <h3 className="pt-5 text-2xl text-cyan-500 font-bold">
-                    Click here to Review products and lucrative business
-                    opportunity
+                    Lucrative Business Opportunity
+                  </h3>
+                </span>{" "}
+              </a>
+              <a
+                href="https://shop.aseaglobal.com/products?sponsorId=180SHS7BCD&m=7"
+                target="_blank"
+              >
+                <span>
+                  {" "}
+                  <h3 className="pt-5 text-2xl text-cyan-500 font-bold">
+                    Review Products
                   </h3>
                 </span>{" "}
               </a>
