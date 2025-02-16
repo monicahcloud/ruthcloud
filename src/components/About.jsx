@@ -64,7 +64,7 @@ const About = () => {
               <a href="https://1800807234.myasealive.com/" target="_blank">
                 <span>
                   {" "}
-                  <h3 className="pt-5 text-cyan-500 font-bold">
+                  <h3 className="pt-5 text-2xl text-cyan-500 font-bold">
                     Click here to Review products and lucrative business
                     opportunity
                   </h3>
