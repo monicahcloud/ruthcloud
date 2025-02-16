@@ -79,7 +79,7 @@ const About = () => {
                 <span>
                   {" "}
                   <h3 className="pt-5 text-2xl text-cyan-500 font-bold">
-                    Review Products
+                    Preferred Customer
                   </h3>
                 </span>{" "}
               </a>
