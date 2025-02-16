@@ -216,7 +216,7 @@ export const products = [
     id: nanoid(),
     img: source,
     url: "https://shop.aseaglobal.com/products/2402?sponsorId=180SHS7BCD&m=7&st=ps",
-    title: "third project",
+    title: "VIA™ Source",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
     retail: "$70.00",
     subscription: "$55.00",
