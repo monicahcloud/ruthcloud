@@ -364,4 +364,16 @@ export const videos = [
     title: "ASEA Essentials Bundle",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=wRS4zmFajaQ",
+    title: "RENU28®­ Revitalizing REDOX Gel",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: " https://www.youtube.com/watch?v=HQZEXiJhsRc",
+    title: "Asea RENU 28 ... Miraculous indeed!",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
 ];
