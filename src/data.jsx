@@ -358,4 +358,10 @@ export const videos = [
     title: "Introducing ASEA Redox Clay Mask",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=Bc8LedIdalc",
+    title: "ASEA Essentials Bundle",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
 ];
