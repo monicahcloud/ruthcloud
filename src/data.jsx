@@ -239,42 +239,123 @@ export const products = [
 
 
 
-
-
-
-
-
 export const videos = [
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=tdbbrK25pQc&t=121s',
-    title: 'ASEA: Genesis / Founders Video',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: "https://www.youtube.com/watch?v=tdbbrK25pQc&t=121s",
+    title: "ASEA: Genesis / Founders Video",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=dejnTwI96yo",
+    title: "ASEA Redox Usage Guide",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
 
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=8TLen6kPNJg&t=500s',
-    title: ' The ASEA REDOX Breakthrough',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: "https://www.youtube.com/watch?v=8TLen6kPNJg&t=500s",
+    title: " The ASEA REDOX Breakthrough",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
 
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=QndF3n0STFI',
-    title: 'The science behind Cell Performance | ASEA',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: "https://www.youtube.com/watch?v=QndF3n0STFI",
+    title: "The science behind Cell Performance | ASEA",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=TnxDE4zqR-k',
-    title: 'Learn More About ASEA',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: "https://www.youtube.com/watch?v=TnxDE4zqR-k",
+    title: "Learn More About ASEA",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
-    url: 'https://www.youtube.com/watch?v=0gDrFrPGEbY&t=365s',
-    title: 'The Ultimate Guide to ASEA Redox: Answering Your Common Questions',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: "https://www.youtube.com/watch?v=0gDrFrPGEbY&t=365s",
+    title: "The Ultimate Guide to ASEA Redox: Answering Your Common Questions",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
-]
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=n-zLN_hvwNg&t=28s",
+    title: "Introducing ASEA Redox Gold",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=DYDpVk4R03U&t=9s",
+    title: "Breakthrough: ASEA REDOX Cell Signaling Supplement",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "  https://www.youtube.com/watch?v=rHewUQxYsNA&t=121s",
+    title: "ASEA Via - Pathways to Wellness",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: " https://www.youtube.com/watch?v=W3mrRZfob2I",
+    title: "Announcing new ASEA Cell Performance products",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: " https://www.youtube.com/watch?v=9zvm-gYRM1k",
+    title: "Signal Your Health",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: " https://www.youtube.com/watch?v=kNAsCtJesjI",
+    title: "Go Boldd. Get REDOXGold",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: " https://www.youtube.com/watch?v=ra2hpDFIUdA",
+    title: "ASEA Production Facility Tour",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=XS6TEeEARMg",
+    title:
+      "Asea Athletes: Groundbreaking Achievements with Groundbreaking Products",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=DISVBD90xkc",
+    title: "Introducing the new ASEA RENUAdvanced Skin Care System",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=mgBKQ9I7fgE",
+    title: "How RENUAdvanced Skin Care System powers your skin's potential",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=w9r_9fBD7Mo",
+    title: "REDOXRadiance Explainer",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=T7ogt8WExk8",
+    title: "REDOXMind recipe: Berry good brain | ASEA",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    url: "https://www.youtube.com/watch?v=OCXGS4Q_4qo",
+    title: "Introducing ASEA Redox Clay Mask",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+];

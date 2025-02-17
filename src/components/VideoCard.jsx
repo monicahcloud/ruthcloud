@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { videos } from '../data'
 
-const ServiceCard = () => {
+const VideoCard = () => {
   const [showAll, setShowAll] = useState(false)
 
   const getYoutubeThumbnail = (url) => {
@@ -53,4 +53,4 @@ const ServiceCard = () => {
   )
 }
 
-export default ServiceCard
+export default VideoCard

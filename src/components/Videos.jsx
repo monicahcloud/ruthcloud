@@ -1,5 +1,5 @@
 
-import ServiceCard from './VideoCard'
+import VideoCard from './VideoCard'
 import Title from './Title'
 
 const Services = () => {
@@ -7,7 +7,7 @@ const Services = () => {
     <section className='pt-36 align-element' id='videos'>
       <Title text='Informational Videos'/>
       <div className="">
-        <ServiceCard/>
+        <VideoCard/>
       </div>
     </section>
   )
