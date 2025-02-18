@@ -14,7 +14,7 @@ const VideoCard = () => {
     setShowAll(!showAll)
   }
 
-  const displayedVideos = showAll ? videos : videos.slice(0, 3)
+  const displayedVideos = showAll ? videos : videos.slice(0, 4)
 
   return (
     <div className="flex flex-col items-center">
@@ -41,7 +41,7 @@ const VideoCard = () => {
           </div>
         ))}
       </div>
-      {videos.length > 3 && (
+      {videos.length > 4 && (
         <button
           onClick={toggleShowAll}
           className="mt-6 mb-6 bg-cyan-600 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
