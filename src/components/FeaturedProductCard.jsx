@@ -1,19 +1,18 @@
 import { nanoid } from "nanoid";
 import Ebundle from "../assets/essentialbundle.png";
 import Renu28 from "../assets/renu28.png";
-import REDOXGoldCom from "../assets/REDOXGold.jpg";
+import gold from "../assets/gold.png";
 
 
 const featuredproducts = [
   {
-    id: nanoid(),
-    img: REDOXGoldCom,
-    url: "https://shop.aseaglobal.com/products/5763?sponsorId=180SHS7BCD&m=7&st=ps",
-    title: "REDOXGold™",
-    className: "rounded-md mb-4 size-48",
-    text: "REDOXGold™ absorbs quickly for fast-acting comfort and soothing relief with lasting results.",
-    retail: "$198.00",
-    subscription: "NA",
+   id: nanoid(),
+      img: gold,
+      url: "https://1800807234.myasealive.com/",
+      title: "REDOXGold™ Massage + Soothing Gel",
+      text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+      retail: "$70.00",
+      subscription: "$55.00",
   },
   {
     id: nanoid(),

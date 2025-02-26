@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { GiHealthPotion } from 'react-icons/gi'
-import gold from "../public/gold.png"
+//import gold from "../public/gold.png"
 import fourbottls from "../public/fourbottls.jpeg";
 import biome from "../public/biome.jpeg";
 import cleanser from "../public/cleanser.jpeg";
@@ -41,15 +41,15 @@ export const services = [
 ]
 
 export const products = [
-  {
-    id: nanoid(),
-    img: gold,
-    url: "https://1800807234.myasealive.com/",
-    title: "REDOXGold™ Massage + Soothing Gel",
-    text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
-    retail: "$70.00",
-    subscription: "$55.00",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: gold,
+  //   url: "https://1800807234.myasealive.com/",
+  //   title: "REDOXGold™ Massage + Soothing Gel",
+  //   text: "ASEA is a wellness company driven by the power of human potential. Headquartered in Utah and serving a global community, ASEA is a trailblazer in cellular health. As the first to introduce groundbreaking redox signaling molecules, ASEA helps your cells function in harmony, as they were designed to. With each product and every opportunity, ASEA is committed to empowering individuals and enhancing lives.",
+  //   retail: "$70.00",
+  //   subscription: "$55.00",
+  // },
   {
     id: nanoid(),
     img: fourbottls,
